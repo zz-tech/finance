@@ -42,27 +42,6 @@ Highcharts.chart('container', {
         // Define the data points. All series have a dummy year
         // of 1970/71 in order to be compared on the same x axis. Note
         // that in JavaScript, months start at 0 for January, 1 for February etc.
-        data: [
-            [Date.UTC(2017, 6, 22), 25319.76],
-            [Date.UTC(2017, 6, 23), 0],
-            [Date.UTC(2017, 6, 24), 0],
-            [Date.UTC(2017, 6, 25), 0],
-            [Date.UTC(2017, 6, 26), 0],
-            [Date.UTC(2017, 6, 27), 0],
-            [Date.UTC(2017, 6, 28), 0],
-            [Date.UTC(2017, 6, 29), 0],
-            [Date.UTC(2017, 6, 30), 0],
-
-            [Date.UTC(2017, 7, 1), 0],
-            [Date.UTC(2017, 7, 2), 0],
-            [Date.UTC(2017, 7, 3), 0],
-            [Date.UTC(2017, 7, 4), 0],
-            [Date.UTC(2017, 7, 5), 0],
-            [Date.UTC(2017, 7, 6), 0],
-            [Date.UTC(2017, 7, 7), 0],
-            [Date.UTC(2017, 7, 8), 0],
-            [Date.UTC(2017, 7, 9), 0],
-            [Date.UTC(2017, 7, 10), 0]
-        ]
+        data: data
     }]
 });
