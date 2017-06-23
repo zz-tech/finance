@@ -11,4 +11,8 @@ sed -i '$d' $DATA
 echo "  "$content >> $DATA
 echo "];" >> $DATA
 
+git add $DATA
+git commit -m"a new data"
+git push
+
 cd -
