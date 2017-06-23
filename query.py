@@ -31,4 +31,4 @@ count = count*1.0/10**6
 #
 # [utc(2017, 6, 22), 6.192633],
 #
-print "[utc(%s), %s]," % (date_format(end), count)
+print "[utc(%s), %s]," % (date_format(start), count)
