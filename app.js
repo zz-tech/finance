@@ -3,10 +3,10 @@ Highcharts.chart('container', {
         type: 'spline'
     },
     title: {
-        text: 'P2P financing'
+        text: 'RestHub trend'
     },
     subtitle: {
-        text: 'balance of account'
+        text: 'total of api call every day'
     },
     xAxis: {
         type: 'datetime',
@@ -20,13 +20,13 @@ Highcharts.chart('container', {
     },
     yAxis: {
         title: {
-            text: 'RMB (yuan)'
+            text: 'Api Call (times)'
         },
         min: 0
     },
     tooltip: {
         headerFormat: '<b>{series.name}</b><br>',
-        pointFormat: '{point.x:%e. %b}: {point.y:.2f} yuan'
+        pointFormat: '{point.x:%e. %b}: {point.y:.2f}'
     },
 
     plotOptions: {
