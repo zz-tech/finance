@@ -1,2 +1,2 @@
 # trend
-Resthub call trend
+Resthub call trend, auto query from influxdb.
