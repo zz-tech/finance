@@ -6,7 +6,7 @@ Highcharts.chart('container', {
         text: 'RestHub trend'
     },
     subtitle: {
-        text: 'total of api call every day'
+        text: 'api call'
     },
     xAxis: {
         type: 'datetime',
@@ -42,7 +42,7 @@ Highcharts.chart('container', {
     },
 
     series: [{
-        name: '2017年',
+        name: '2017',
         // Define the data points. All series have a dummy year
         // of 1970/71 in order to be compared on the same x axis. Note
         // that in JavaScript, months start at 0 for January, 1 for February etc.
