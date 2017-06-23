@@ -1,3 +1,8 @@
+function utc(year, month, day)
+{
+    return Date.UTC(year, month-1, day);
+}
+
 data = [
   [utc(2017, 5, 23), 4.108634],
   [utc(2017, 5, 24), 3.761137],
