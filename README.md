@@ -1,2 +1,2 @@
 # trend
-resthub call trend
+Resthub call trend
