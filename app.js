@@ -23,7 +23,7 @@ Highcharts.chart('container', {
             text: 'Api Call (times)'
         },
         max:8, // 定义Y轴 最大值  
-        min:4, // 定义最小值  
+        min:3, // 定义最小值  
         minPadding: 0.1,   
         maxPadding: 0.1,  
         tickInterval: 0.1, // 刻度值  
