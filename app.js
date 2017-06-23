@@ -26,7 +26,7 @@ Highcharts.chart('container', {
         min:4, // 定义最小值  
         minPadding: 0.1,   
         maxPadding: 0.1,  
-        tickInterval: 0.2, // 刻度值  
+        tickInterval: 0.1, // 刻度值  
     },
     tooltip: {
         headerFormat: '<b>{series.name}</b><br>',
