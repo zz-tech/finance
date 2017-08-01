@@ -22,11 +22,11 @@ Highcharts.chart('container', {
         title: {
             text: 'Api Call (times)'
         },
-        max:15, // 定义Y轴 最大值  
-        min:3, // 定义最小值  
+        max:15, // 定义Y轴 最大值
+        min:3, // 定义最小值
         minPadding: 0.1,   
         maxPadding: 0.1,  
-        tickInterval: 0.1, // 刻度值  
+        tickInterval: 0.1, // 刻度
     },
     tooltip: {
         headerFormat: '<b>{series.name}</b><br>',
